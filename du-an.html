@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dự án - Nguyễn Đình Hợi</title>
+  <meta name="description" content="Các dự án web Nguyễn Đình Hợi đã thực hiện trong quá trình học HTML và CSS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span>NĐH</span> Nguyễn Đình Hợi</a>
+      <nav aria-label="Điều hướng chính">
+        <ul class="nav">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li><a class="active" href="du-an.html">Dự án</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap section-intro">
+      <h1>Dự án</h1>
+      <p class="lead">Ba bài tập lớn tôi đã hoàn thành. Mỗi dự án đều viết bằng HTML và CSS thuần, không dùng thư viện ngoài.</p>
+    </section>
+
+    <section class="wrap section">
+      <div class="grid-2">
+        <figure>
+          <img src="images/project-1.svg" alt="Ảnh minh họa giao diện website quán cà phê" width="640" height="400" style="border-radius:14px;border:1px solid var(--line);">
+        </figure>
+        <div>
+          <h2>Website quán cà phê</h2>
+          <p>Trang giới thiệu một quán cà phê nhỏ gồm bốn phần: câu chuyện của quán, thực đơn, hình ảnh không gian và thông tin đường đi.</p>
+          <p>Điều tôi học được nhiều nhất là cách dùng CSS Grid để xếp thực đơn thành nhiều cột mà vẫn gọn gàng khi thu nhỏ màn hình.</p>
+          <ul class="skills">
+            <li>HTML5</li>
+            <li>CSS Grid</li>
+            <li>Responsive</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="grid-2">
+        <figure>
+          <img src="images/project-2.svg" alt="Ảnh minh họa giao diện blog ghi chép học tập" width="640" height="400" style="border-radius:14px;border:1px solid var(--line);">
+        </figure>
+        <div>
+          <h2>Blog ghi chép học tập</h2>
+          <p>Nơi tôi lưu các bài viết ngắn về những thứ vừa học: thẻ ngữ nghĩa trong HTML, cách canh lề bằng Flexbox, mẹo đặt tên lớp CSS.</p>
+          <p>Bố cục hai cột với mục lục cố định bên trái, trên điện thoại mục lục chuyển xuống đầu trang.</p>
+          <ul class="skills">
+            <li>Flexbox</li>
+            <li>Typography</li>
+            <li>Media query</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="grid-2">
+        <figure>
+          <img src="images/project-3.svg" alt="Ảnh minh họa giao diện trang tra cứu điểm" width="640" height="400" style="border-radius:14px;border:1px solid var(--line);">
+        </figure>
+        <div>
+          <h2>Trang tra cứu điểm</h2>
+          <p>Bài tập về bảng dữ liệu: trình bày bảng điểm của một lớp sao cho vẫn đọc được trên màn hình hẹp, có tiêu đề cột cố định và màu nền xen kẽ.</p>
+          <p>Qua dự án này tôi hiểu rõ hơn vai trò của các thẻ <code>thead</code>, <code>tbody</code> và thuộc tính <code>scope</code> đối với người dùng trình đọc màn hình.</p>
+          <ul class="skills">
+            <li>Bảng dữ liệu</li>
+            <li>Khả năng truy cập</li>
+            <li>CSS3</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <h2>Nguồn tài liệu tham khảo</h2>
+      <ul class="contact-list">
+        <li><strong>Tài liệu HTML và CSS</strong> MDN Web Docs - <a href="https://developer.mozilla.org/vi/" target="_blank" rel="noopener">developer.mozilla.org</a></li>
+        <li><strong>Hướng dẫn xuất bản trang tĩnh</strong> GitHub Pages - <a href="https://pages.github.com/" target="_blank" rel="noopener">pages.github.com</a></li>
+        <li><strong>Phông chữ</strong> Be Vietnam Pro và Bricolage Grotesque từ Google Fonts (giấy phép SIL Open Font License)</li>
+        <li><strong>Hình ảnh</strong> Toàn bộ hình minh họa trong website do tác giả tự vẽ bằng SVG</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Nguyễn Đình Hợi. Bài tập xây dựng website tĩnh bằng HTML5 và CSS3.</p>
+      <p>Điện thoại: <a href="tel:0367087736">0367 087 736</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
