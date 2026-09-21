@@ -1,4 +1,4 @@
-# Hồ sơ cá nhân - Nguyễn Đình Hợi
+# Hồ sơ cá nhân - Nguyễn Đinh Hợi
 
 Website tĩnh được xây dựng bằng HTML5 và CSS3 cho bài tập môn Thiết kế web. Mã nguồn quản lý trên GitHub và xuất bản bằng GitHub Pages.
 
@@ -66,5 +66,5 @@ git push -u origin main
 
 ## 7. Thông tin sinh viên
 
-- Họ và tên: Nguyễn Đình Hợi
+- Họ và tên: Nguyễn Đinh Hợi
 - Điện thoại: 0367 087 736
